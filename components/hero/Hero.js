@@ -18,7 +18,7 @@ export default function Hero() {
                             area is surrounded by beauty and tranquility.
                         </p>
                     </div>
-                    <button className={styles.listButton}><Link href="#enquire">Read More</Link></button>
+                    <button className={styles.listButton}><Link href="#enquire" scroll={false}>Read More</Link></button>
                 </div>
             </div>
         </section>
