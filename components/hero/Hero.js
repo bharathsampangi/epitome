@@ -8,7 +8,6 @@ export default function Hero() {
         <section>
             <div className={styles.landingMain}></div>
             <div className={styles.landingText}>
-                <Image src={Folium} alt="Folium" className={styles.landingImage} />
                 <div className={styles.landingBox}>
                     <div className={styles.landingHeader}>
                         <p className={styles.heading}>Pre-Launching</p>

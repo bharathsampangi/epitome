@@ -2,12 +2,13 @@
     background-image: url("/images/epitome.jpg");
     background-size: cover;
     min-height: 70vh;
-    filter: brightness(65%)
+    filter: brightness(65%);
+    background-position: center;
 }
 
 .landingText {
     height: auto;
-    min-height: 20vh;
+    min-height: 60vh;
     background-color: #000;
     display: flex;
     color: #fff;
@@ -96,7 +97,7 @@
 }
 
 .landingImage {
-    height: 40vh;
+    height: 60vh;
 }
 
 .heading {
@@ -117,10 +118,14 @@
     }
     .landingMain {
         background-image: url("/images/epitome.jpg");
-        min-height: 70vh;
+        min-height: 80vh;
     }
 
     .heroListItem:not(:last-child){
         border-right: 1px solid #fff;
+    }
+
+    .landingText {
+        min-height: 30vh;
     }
 }

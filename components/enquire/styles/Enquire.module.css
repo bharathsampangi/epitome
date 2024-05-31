@@ -22,17 +22,18 @@
 
 .formGroup {
     display: flex;
-    margin: 2rem 0;
+    flex-direction: column;
 }
 
 .formElement {
-    flex: 50%;
+    flex: 100%;
+    margin: .5rem 0;
 }
 
 .formElement > input {
     border: none;
     border-bottom: 1px solid #666;
-    width: 60%;
+    width: 100%;
     background-color: inherit;
     outline: none;
     color: #333;
@@ -42,7 +43,7 @@
 .formElement > textarea {
     border: none;
     border-bottom: 1px solid #666;
-    width: 60%;
+    width: 100%;
     background-color: inherit;
     outline: none;
     color: #333;
@@ -59,4 +60,25 @@
     display: block;
     color: #fff;
     margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .formGroup {
+        display: flex;
+        flex-direction: row;
+        margin: 2rem 0;
+    }
+
+    .formElement {
+        flex: 50%;
+        margin: 2rem 0;
+    }
+
+    .formElement > input {
+        width: 80%;
+    }
+
+    .formElement > textarea {
+        width: 90%;
+    }
 }

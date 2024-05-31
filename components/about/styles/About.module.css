@@ -10,6 +10,7 @@
 }
 
 .locationInnerBox {
+    padding: 0 .5rem;
     width: 100%;
     margin: 0 auto;
 }
@@ -100,5 +101,6 @@
 
     .locationInnerBox {
         width: 80%;
+        padding: 0 .5rem;
     }
 }

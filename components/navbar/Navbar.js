@@ -25,7 +25,7 @@ export default function Navbar({ active='' }) {
                 </li>
                 <li>
                     <Link href="#enquire" scroll={false}>
-                        <span className="contact"><span>📞</span> <span>8147530047</span></span>
+                        8147530047
                     </Link>
                 </li>
                 <li className={styles.listButton}>
