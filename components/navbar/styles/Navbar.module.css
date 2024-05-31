@@ -1,0 +1,52 @@
+.nav {
+    background-color: #fff;
+    display: flex;
+    color: #000;
+    padding: 1rem 5vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.list > li {
+    padding: .5rem 1rem;
+    margin: 0 .5rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.listButton {
+    background-color: #D6BA43;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: none;
+}
+
+.active {
+    color: var(--primary-color);
+}
+
+.logoImage {
+    height: 70px;
+    width: 100px;
+    transform: scale(1.1);
+}
+
+.logo {
+    background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .listButton {
+        display: block;
+    }
+}
