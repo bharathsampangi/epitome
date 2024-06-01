@@ -25,7 +25,7 @@ export default function Navbar({ active='' }) {
                 </li>
                 <li>
                     <Link href="#enquire" scroll={false}>
-                        8147530047
+                        8147955819
                     </Link>
                 </li>
                 <li className={styles.listButton}>

@@ -8,7 +8,7 @@ export default function Footer() {
                 <div className={styles.footerOptions}>
                     <div className={styles.footerOption1}>
                         <div className={styles.head}>
-                            📞 8147530047
+                            📞 8147955819
                         </div>
                         <div className={styles.text}>
                             The information provided on this website is intended for
@@ -27,9 +27,6 @@ export default function Footer() {
                             to this disclaimer without any reservations or
                             limitations.
                         </div>
-                        <button className={styles.button}>
-                            <Link href="#enquire">download brochure</Link>
-                        </button>
                     </div>
                 </div>
                 <div className={styles.line}></div>

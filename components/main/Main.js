@@ -8,6 +8,7 @@ import Footer from "../footer/Footer"
 import About from "../about/About"
 import Enquire from "../enquire/Enquire"
 import Project from "../project/Project"
+import Amenities from "../Amenities/Amenities"
 
 const Main = () => {
     return (
@@ -17,6 +18,7 @@ const Main = () => {
             <About />
             <Location />
             <Project />
+            <Amenities />
             <Who />
             <Preview />
             <Enquire />
