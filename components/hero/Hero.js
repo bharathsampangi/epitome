@@ -1,25 +1,20 @@
-import styles from "./styles/Hero.module.css"
-import Image from "next/image"
-import Folium from "../../public/images/folium-2.png"
-import Link from "next/link"
+import styles from "./styles/Hero.module.css";
+import Link from "next/link";
 
-export default function Hero() {
+export default function Hero({openModal}) {
     return (
         <section>
-            <div className={styles.landingMain}></div>
-            <div className={styles.landingText}>
-                <div className={styles.landingBox}>
-                    <div className={styles.landingHeader}>
-                        <p className={styles.heading}>Pre-Launching</p>
-                        <div>The Epitome by Sumadhura Group</div>
-                        <p>
-                            Located in thriving Rachenahalli, this quiet residential
-                            area is surrounded by beauty and tranquility.
-                        </p>
-                    </div>
-                    <button className={styles.listButton}><Link href="#enquire" scroll={false}>Read More</Link></button>
+            <div className={styles.landingMain}>
+                <div className={styles.banner}>
+                    <p className={styles.small}>Pre-Launching</p>
+                    <h1 className={styles.header}>Sumadhura Epitome</h1>
+                    <p>Premium 2, 3 & 4 BHK apartments</p>
+                    <p>Rachenahalli, Thanisandra, North Bangalore</p>
+                    <button className={styles.listButton} onClick={openModal} >
+                        Download Brochure
+                    </button>
                 </div>
             </div>
         </section>
-    )
+    );
 }

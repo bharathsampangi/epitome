@@ -3,7 +3,7 @@ import styles from "./styles/Pricing.module.css"
 
 export default function Pricing() {
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id="pricing">
             <div className={styles.element}>
                 <h3 className={styles.header}>Pricing Structure</h3>
                 <div className={styles.priceContainer}>

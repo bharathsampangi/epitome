@@ -19,18 +19,18 @@ export default function Navbar({ active='' }) {
                     </Link>
                 </li>
                 <li>
-                    <Link href="#location" scroll={false}  >
-                        Location
+                    <Link href="#overview" scroll={false}  >
+                        Overview
                     </Link>
                 </li>
                 <li>
-                    <Link href="#enquire" scroll={false}>
-                        8147955819
+                    <Link href="#pricing" scroll={false}>
+                        Pricing
                     </Link>
                 </li>
-                <li className={styles.listButton}>
-                    <Link href="#enquire" scroll={false}>
-                        Enquire Now
+                <li>
+                    <Link href="#location" scroll={false}  >
+                        Location
                     </Link>
                 </li>
             </ul>

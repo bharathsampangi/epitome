@@ -1,9 +1,29 @@
 .landingMain {
-    background-image: url("/images/epitome.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url("/images/epitome.jpg");
     background-size: cover;
     min-height: 70vh;
-    filter: brightness(65%);
     background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header {
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding-bottom: 1.25rem;
+}
+
+.banner {
+    font-size: 1.25rem;
+}
+
+.small {
+    font-size: 1rem;
 }
 
 .landingText {
@@ -117,7 +137,7 @@
         margin: 0 auto;
     }
     .landingMain {
-        background-image: url("/images/epitome.jpg");
+        background-image: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url("/images/epitome.jpg");
         min-height: 80vh;
     }
 
