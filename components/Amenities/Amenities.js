@@ -3,7 +3,7 @@ import styles from "./styles/Amenities.module.css"
 export default function Amenities() {
     return (
         <section className={styles.container}>
-            <div>
+            <div className={styles.element}>
                 <h3 className={styles.header}>Top-tier Amenities</h3>
                 <div className={styles.amenitiesContainer}>
                     <ul className={styles.list}>

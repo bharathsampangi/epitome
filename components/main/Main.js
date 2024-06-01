@@ -9,6 +9,7 @@ import About from "../about/About"
 import Enquire from "../enquire/Enquire"
 import Project from "../project/Project"
 import Amenities from "../Amenities/Amenities"
+import Pricing from "../Pricing/Pricing"
 
 const Main = () => {
     return (
@@ -16,9 +17,10 @@ const Main = () => {
             <Navbar />
             <Hero />
             <About />
-            <Location />
             <Project />
             <Amenities />
+            <Pricing />
+            <Location />
             <Who />
             <Preview />
             <Enquire />

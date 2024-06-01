@@ -1,0 +1,44 @@
+.box {
+    padding: 2rem;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+    margin: 1rem;
+    min-width: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-size: 2rem;
+    color: #333;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-weight: 200;
+}
+
+.area {
+    font-size: 1.75rem;
+    color: #333;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-weight: 200;
+}
+
+.price {
+    font-size: 1.75rem;
+    color: #333;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+}
+
+.textBold {
+    font-weight: bold;
+}
+
+.priceText {
+    padding-bottom: .25rem;
+}
