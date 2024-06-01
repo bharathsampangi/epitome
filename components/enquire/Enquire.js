@@ -5,7 +5,7 @@ export default function Enquire() {
         <section className={styles.enquire} id="enquire">
             <div className={styles.header}>Enquire Now</div>
             <form className={styles.form} action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="ec20fcf4-3183-4ea2-b3cb-2f8096c34440" />
+                <input type="hidden" name="access_key" value="e0445da9-5959-4e89-88cf-0b1a0d2c5c54" />
                 <div className={styles.formGroup}>
                     <div className={styles.formElement}>
                         <label className={styles.label}>First Name</label>
