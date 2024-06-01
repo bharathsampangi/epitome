@@ -10,7 +10,7 @@
 
 .header {
     font-size: 2rem;
-    color: #333;
+    color: #D6BA43;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -28,7 +28,7 @@
 
 .price {
     font-size: 1.75rem;
-    color: #333;
+    color: #D6BA43;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
