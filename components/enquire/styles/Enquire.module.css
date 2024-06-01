@@ -75,10 +75,10 @@
     }
 
     .formElement > input {
-        width: 80%;
+        width: 100%;
     }
 
     .formElement > textarea {
-        width: 90%;
+        width: 100%;
     }
 }

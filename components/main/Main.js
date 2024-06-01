@@ -29,7 +29,9 @@ const Main = () => {
                 setIsOpen
             }} />
             <About />
-            <Project />
+            <Project {...{
+                openModal
+            }}/>
             <Amenities />
             <Pricing />
             <Location />

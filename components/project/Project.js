@@ -1,6 +1,6 @@
 import styles from "./styles/Project.module.css";
 
-export default function Project() {
+export default function Project({openModal}) {
     return (
         <section className={styles.container} id="overview">
             <div className={styles.element}>
@@ -17,21 +17,29 @@ export default function Project() {
                         </li>
                         <li>
                             <span className={styles.title}>Area: </span>
-                            <span>Upon Request</span>
+                            <button className={styles.button} onClick={openModal} >
+                                Get Details
+                            </button>
                         </li>
                         <li>
                             <span className={styles.title}>
                                 No. of Towers:{" "}
                             </span>
-                            <span>Upon Request</span>
+                            <button className={styles.button} onClick={openModal} >
+                                Get Details
+                            </button>
                         </li>
                         <li>
                             <span className={styles.title}>Structure: </span>
-                            <span>Upon Request</span>
+                            <button className={styles.button} onClick={openModal} >
+                                Get Details
+                            </button>
                         </li>
                         <li>
                             <span className={styles.title}>No. of Units: </span>
-                            <span>Upon Request</span>
+                            <button className={styles.button} onClick={openModal} >
+                                Get Details
+                            </button>
                         </li>
                         <li>
                             <span className={styles.title}>
@@ -51,7 +59,9 @@ export default function Project() {
                             <span className={styles.title}>
                                 Possession Date:{" "}
                             </span>
-                            <span>NA</span>
+                            <button className={styles.button} onClick={openModal} >
+                                Get Details
+                            </button>
                         </li>
                         <li>
                             <span className={styles.title}>RERA No.: </span>
