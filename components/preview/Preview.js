@@ -93,7 +93,7 @@ export default function Preview() {
                 <div className={`${styles.mySlides} ${styles.fade}`} id="preview-4">
                     <div className={styles.titleText}>Premium 4 BHK</div>
                     <div className={styles.numbertext}>4 / 4</div>
-                    <img classNames={styles.image} src="/images/Premium-4-BHK.jpg" style={{ width: "100%" }} alt="Premium 4 BHK" />
+                    <img className={styles.image} src="/images/Premium-4-BHK.jpg" style={{ width: "100%" }} alt="Premium 4 BHK" />
                 </div>
 
                 <a className={styles.prev} onClick={() => plusSlides(-1)}>&#10094;</a>
