@@ -11,6 +11,8 @@
 .list {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .list > li {
@@ -18,6 +20,10 @@
     margin: 0 .5rem;
     font-size: .9rem;
     cursor: pointer;
+}
+
+.list > li:nth-child(4) {
+    display: none;
 }
 
 .listButton {
@@ -52,5 +58,8 @@
     }
     .listButton {
         display: block;
+    }
+    .list > li:nth-child(4) {
+        display: inline-block;
     }
 }
