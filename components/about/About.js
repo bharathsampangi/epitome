@@ -1,12 +1,10 @@
 import styles from "./styles/About.module.css";
-import Landing from "../../public/images/epitome.jpg"
-import Image from "next/image"
 
 export default function About() {
     return (
         <section className={styles.location} id="about">
             <div className={styles.aboutContainer}>
-                <img src="/images/epitome-home.jpg" alt="Home Car" />
+                <img src="/images/epitome-home.webp" alt="Home Car" />
             </div>
             <div className={styles.locationBox}>
                 <div className={styles.locationInnerBox}>
