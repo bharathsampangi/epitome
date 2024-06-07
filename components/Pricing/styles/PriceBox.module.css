@@ -9,12 +9,12 @@
 }
 
 .header {
-    font-size: 2rem;
+    font-size: 2.1rem;
     color: #D6BA43;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .area {
