@@ -34,7 +34,7 @@ a {
 
 @font-face {
   font-family: 'Montserrat';
-  src: url("../public/fonts/Montserrat-Thin.ttf");
+  src: url("../public/fonts/Montserrat-Thin.woff2");
   font-weight: 100;
   font-style: thin;
   font-display: swap;
@@ -42,7 +42,7 @@ a {
 
 @font-face {
   font-family: 'Montserrat';
-  src: url("../public/fonts/Montserrat-Light.ttf");
+  src: url("../public/fonts/Montserrat-Light.woff2");
   font-weight: 200;
   font-style: light;
   font-display: swap;
@@ -50,7 +50,7 @@ a {
 
 @font-face {
   font-family: 'Montserrat';
-  src: url("../public/fonts/Montserrat-Medium.ttf");
+  src: url("../public/fonts/Montserrat-Medium.woff2");
   font-weight: 300;
   font-style: medium;
   font-display: swap;
@@ -58,7 +58,7 @@ a {
 
 @font-face {
   font-family: 'Montserrat';
-  src: url("../public/fonts/Montserrat-Regular.ttf");
+  src: url("../public/fonts/Montserrat-Regular.woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -66,7 +66,7 @@ a {
 
 @font-face {
   font-family: 'Montserrat';
-  src: url("../public/fonts/Montserrat-Bold.ttf");
+  src: url("../public/fonts/Montserrat-Bold.woff2");
   font-weight: 700;
   font-style: bold;
   font-display: swap;
@@ -74,7 +74,7 @@ a {
 
 @font-face {
   font-family: 'EBGaramond';
-  src: url("../public/fonts/EBGaramond-Regular.ttf");
+  src: url("../public/fonts/EBGaramond-Regular.woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;

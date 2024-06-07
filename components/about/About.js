@@ -4,7 +4,7 @@ export default function About() {
     return (
         <section className={styles.location} id="about">
             <div className={styles.aboutContainer}>
-                <img src="/images/epitome-home.webp" alt="Home Car" />
+                <img src="/images/epitome-home-mobile.webp" id="eptiome-home" alt="Sumadhura Epitome" />
             </div>
             <div className={styles.locationBox}>
                 <div className={styles.locationInnerBox}>
