@@ -8,7 +8,7 @@ export default function Footer() {
                 <div className={styles.footerOptions}>
                     <div className={styles.footerOption1}>
                         <div className={styles.head}>
-                            📞 8147955819
+                            <a href="tel:8147955819">📞 8147955819</a>
                         </div>
                         <div className={styles.text}>
                             The information provided on this website is intended for
