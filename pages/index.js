@@ -9,7 +9,7 @@ export default function Home() {
         <meta charset="utf-8"/>
         <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
         <meta name="description" content="Sumadhura Epitome is a Brand New Residential Project at Bangalore by Sumadhura Group. It Offers 2 & 3 BHK Apartments. For More Details Contact Us Now." />
-        <meta name="keywords" content="Sumadhura Folium,Sumadhura folium Whitefield,Sumadhura folium price, Sumadhura folium location,Sumadhura Folium Reviews,Sumadhura Group,Sumadhura folium Borewell Road,sumadhura folium Brochures "/>
+        <meta name="keywords" content="Sumadhura Epitome,Sumadhura Epitome Rachenahalli,Sumadhura epitome price, Sumadhura epitome location,Sumadhura Epitome Reviews,Sumadhura Group,Sumadhura Epitome Thanisandra,Sumadhura Epitome North Bangalore, sumadhura epitome Brochures "/>
         <link rel="icon" href="/favicon.ico" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://sumadhuraepitome.in.net/"></link>
