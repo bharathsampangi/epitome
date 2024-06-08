@@ -1,0 +1,26 @@
+.floating {
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+
+}
+
+.button {
+    background-color: #D6BA43;
+    cursor: pointer;
+    color: inherit;
+    border: 1px solid #D6BA43;
+    padding: 1rem 1rem;
+    color: #fff;
+    flex-grow: 1;
+}
+
+.buttonWhatsapp {
+    background-color: #128c7e;
+    cursor: pointer;
+    color: inherit;
+    border: 1px solid #128c7e;
+    padding: 1rem 1rem;
+    color: #fff;
+    flex-grow: 1;
+}

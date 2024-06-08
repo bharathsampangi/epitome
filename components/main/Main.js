@@ -9,6 +9,7 @@ import Project from "../project/Project"
 import Amenities from "../Amenities/Amenities"
 import Pricing from "../Pricing/Pricing"
 import EnquireModal from "../EnquireModal/EnquireModal"
+import FloatingHeader from "../floating/FloatingHeader"
 
 const Main = () => {
     const [isOpen, setIsOpen] = React.useState(false)
@@ -39,6 +40,7 @@ const Main = () => {
             <Location />
             <Enquire />
             <Footer />
+            <FloatingHeader />
         </main>
     )
 }
