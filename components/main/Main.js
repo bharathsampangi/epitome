@@ -33,7 +33,9 @@ const Main = () => {
                 openModal
             }}/>
             <Amenities />
-            <Pricing />
+            <Pricing {...{
+                openModal
+            }}/>
             <Location />
             <Enquire />
             <Footer />

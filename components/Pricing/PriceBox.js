@@ -2,7 +2,7 @@ import styles from "./styles/PriceBox.module.css"
 
 export default function PriceBox(props) {
 
-    const { unitName, unit, area, price } = props
+    const { unitName, unit, area, price, openModal } = props
 
     return (
         <div className={styles.box}>
@@ -21,6 +21,9 @@ export default function PriceBox(props) {
                 <hr/>
             </div>
             <h3 className={styles.price}>{price}</h3>
+            <button className={styles.button} onClick={openModal} >
+                Get Quote
+            </button>
         </div>
     )
 }

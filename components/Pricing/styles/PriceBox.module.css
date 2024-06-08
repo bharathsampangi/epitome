@@ -35,6 +35,17 @@
     font-weight: 300;
 }
 
+.button {
+    background-color: #D6BA43;
+    cursor: pointer;
+    color: inherit;
+    border: 1px solid #D6BA43;
+    padding: .25rem 1rem;
+    color: #fff;
+    max-width: 150px;
+    align-self: center;
+}
+
 .textBold {
     font-weight: bold;
 }
