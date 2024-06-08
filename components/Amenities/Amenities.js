@@ -11,7 +11,7 @@ export default function Amenities() {
                             <img
                                 className={styles.icon}
                                 src="/images/club.svg"
-                                alt="Club House"
+                                alt="Premium Club House"
                             />
                             Club House
                         </li>
@@ -19,13 +19,13 @@ export default function Amenities() {
                             <img
                                 className={styles.icon}
                                 src="/images/children.svg"
-                                alt="Kids Play Area"
+                                alt="Swing"
                             />Kids Play Area</li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
                                 src="/images/pool.svg"
-                                alt="Swimming Pool"
+                                alt="Pool Area"
                             />
                             Swimming Pool
                         </li>
@@ -33,7 +33,7 @@ export default function Amenities() {
                             <img
                                 className={styles.icon}
                                 src="/images/gym.svg"
-                                alt="Gym"
+                                alt="Workout"
                             />
                             Gym
                         </li>
@@ -41,7 +41,7 @@ export default function Amenities() {
                             <img
                                 className={styles.icon}
                                 src="/images/park.svg"
-                                alt="Open Space"
+                                alt="Park"
                             />
                             Open Space
                         </li>
@@ -49,19 +49,19 @@ export default function Amenities() {
                             <img
                                 className={styles.icon}
                                 src="/images/power.svg"
-                                alt="Power Backup"
+                                alt="24X7 Backup"
                             />Power Backup</li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
                                 src="/images/parking.svg"
-                                alt="Car Parking"
+                                alt="Basement Parking"
                             />Car Parking</li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
                                 src="/images/security.svg"
-                                alt="3 Tier Security"
+                                alt="Top Level Security"
                             />
                             3 Tier Security
                         </li>
@@ -71,49 +71,49 @@ export default function Amenities() {
                             <img
                                 className={styles.icon}
                                 src="/images/nature.svg"
-                                alt="Vastu Compliant"
+                                alt="Vastu Compliant homes"
                             />Vastu Compliant</li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
                                 src="/images/hall.svg"
-                                alt="Multipurpose Hall"
+                                alt="Community Halls"
                             />Multipurpose Hall</li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
                                 src="/images/cctv.svg"
-                                alt="Video Security"
+                                alt="CCTV coverage"
                             />Video Security</li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
                                 src="/images/gas.svg"
-                                alt="Piped Gas"
+                                alt="Domestic Gas"
                             />Piped Gas</li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
                                 src="/images/lift.svg"
-                                alt="Lift"
+                                alt="Power Lift"
                             />Lift</li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
                                 src="/images/security.svg"
-                                alt="24X7 Security"
+                                alt="Security at it's best"
                             />24X7 Security</li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
                                 src="/images/running.svg"
-                                alt="Jogging Track"
+                                alt="Jogging and Cycle Track"
                             />Jogging Track</li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
                                 src="/images/staff.svg"
-                                alt="Maintenance Staff"
+                                alt="Staff Quarters"
                             />Maintenance Staff</li>
                     </ul>
                 </div>
