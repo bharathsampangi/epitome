@@ -4,7 +4,7 @@ export default function Project({openModal}) {
     return (
         <section className={styles.container} id="overview">
             <div className={styles.element}>
-                <h3 className={styles.header}>Project Overview</h3>
+                <h2 className={styles.header}>Project Overview</h2>
                 <div className={styles.listContainer}>
                     <ul className={styles.list}>
                         <li>
