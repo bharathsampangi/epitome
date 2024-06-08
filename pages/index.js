@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Main from '../components/main/Main'
-import FloatingHeader from '../components/floating/FloatingHeader'
 
 export default function Home() {
   return (
