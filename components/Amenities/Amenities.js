@@ -20,7 +20,9 @@ export default function Amenities() {
                                 className={styles.icon}
                                 src="/images/children.svg"
                                 alt="Swing"
-                            />Kids Play Area</li>
+                            />
+                            Kids Play Area
+                        </li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
@@ -50,13 +52,17 @@ export default function Amenities() {
                                 className={styles.icon}
                                 src="/images/power.svg"
                                 alt="24X7 Backup"
-                            />Power Backup</li>
+                            />
+                            Power Backup
+                        </li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
                                 src="/images/parking.svg"
                                 alt="Basement Parking"
-                            />Car Parking</li>
+                            />
+                            Car Parking
+                        </li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
@@ -67,54 +73,70 @@ export default function Amenities() {
                         </li>
                     </ul>
                     <ul className={styles.list}>
-                    <li className={styles.iconBox}>
+                        <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
                                 src="/images/nature.svg"
                                 alt="Vastu Compliant homes"
-                            />Vastu Compliant</li>
+                            />
+                            Vastu Compliant
+                        </li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
                                 src="/images/hall.svg"
                                 alt="Community Halls"
-                            />Multipurpose Hall</li>
+                            />
+                            Multipurpose Hall
+                        </li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
                                 src="/images/cctv.svg"
                                 alt="CCTV coverage"
-                            />Video Security</li>
+                            />
+                            Video Security
+                        </li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
                                 src="/images/gas.svg"
                                 alt="Domestic Gas"
-                            />Piped Gas</li>
+                            />
+                            Piped Gas
+                        </li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
                                 src="/images/lift.svg"
                                 alt="Power Lift"
-                            />Lift</li>
+                            />
+                            Lift
+                        </li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
                                 src="/images/security.svg"
                                 alt="Security at it's best"
-                            />24X7 Security</li>
+                            />
+                            24X7 Security
+                        </li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
                                 src="/images/running.svg"
                                 alt="Jogging and Cycle Track"
-                            />Jogging Track</li>
+                            />
+                            Jogging Track
+                        </li>
                         <li className={styles.iconBox}>
                             <img
                                 className={styles.icon}
                                 src="/images/staff.svg"
                                 alt="Staff Quarters"
-                            />Maintenance Staff</li>
+                            />
+                            Maintenance Staff
+                        </li>
                     </ul>
                 </div>
             </div>
