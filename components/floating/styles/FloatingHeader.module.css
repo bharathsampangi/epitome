@@ -79,7 +79,7 @@
         width: 200px;
         flex-basis: auto;
         margin-left: 5rem;
-        animation: pulse  1.5s linear infinite; 
+        animation: pulse  2.5s linear infinite; 
     }
     
     .buttonWhatsapp {
@@ -87,7 +87,7 @@
         width: 200px;
         flex-basis: auto;
         margin-right: 5rem;
-        animation: pulseGreen  1.5s linear infinite;
+        animation: pulseGreen  2.5s linear infinite;
     }
 
     .floatingDesktop {
