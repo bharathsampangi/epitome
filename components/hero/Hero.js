@@ -13,6 +13,9 @@ export default function Hero({openModal}) {
                     <button className={styles.listButton} onClick={openModal} >
                         Download Brochure
                     </button>
+                    <div className={styles.call}>
+                        <a href="tel:7625039382" className={styles.bold}>Schedule Visit: +91 76250 39382</a>
+                    </div>
                 </div>
             </div>
         </section>

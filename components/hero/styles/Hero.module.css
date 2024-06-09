@@ -1,8 +1,8 @@
 .landingMain {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url("/images/epitome-mobile.webp");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("/images/epitome-mobile.webp");
     background-size: cover;
     min-height: 70vh;
-    background-position: center;
+    background-position: bottom;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -101,6 +101,12 @@
     font-weight: bold;
 }
 
+.call {
+    margin-top: 1rem;
+    font-size: .95rem;
+    cursor: pointer;
+}
+
 .heroListItemText {
     text-transform: uppercase;
     font-weight: 100;
@@ -136,8 +142,9 @@
         width: 75%;
         margin: 0 auto;
     }
+
     .landingMain {
-        background-image: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url("/images/epitome.webp");
+        background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("/images/epitome.webp");
         min-height: 80vh;
     }
 
