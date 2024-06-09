@@ -19,6 +19,8 @@ export default function Home() {
       </Head>
 
       <Main />
+      <a title="Google Analytics Alternative" href="https://clicky.com/101455694" className="hidden"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
+      <script async data-id="101455694" src="//static.getclicky.com/js"></script>
     </div>
   )
 }
