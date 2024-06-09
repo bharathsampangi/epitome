@@ -16,9 +16,6 @@ export default function Home() {
         <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <link rel="shortlink" href="https://sumadhuraepitome.in.net/"></link>
-        <a title="Privacy-friendly Web Analytics" href="https://clicky.com/101455692"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
-        <script async data-id="101455692" src="//static.getclicky.com/js"></script>
-        <script async data-id="101455692" src="/8a1f613fd9d4.js"></script>
       </Head>
 
       <Main />
