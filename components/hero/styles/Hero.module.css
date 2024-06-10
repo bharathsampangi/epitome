@@ -2,11 +2,11 @@
     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("/images/epitome-mobile.webp");
     background-size: cover;
     min-height: 70vh;
-    background-position: bottom;
+    background-position: center;
     color: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     text-align: center;
 }
@@ -120,6 +120,7 @@
     color: inherit;
     border: 1px solid #D6BA43;
     padding: .5rem 2rem;
+    margin-bottom: 1rem;
 }
 
 .landingImage {
