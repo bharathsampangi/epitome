@@ -14,22 +14,22 @@ export default function Navbar({ active='' }) {
             </div>
             <ul className={styles.list}>
                 <li>
-                    <Link href="#about" scroll={false}>
+                    <Link href="/#about" scroll={false}>
                         About
                     </Link>
                 </li>
                 <li>
-                    <Link href="#overview" scroll={false}  >
+                    <Link href="/#overview" scroll={false}  >
                         Overview
                     </Link>
                 </li>
                 <li>
-                    <Link href="#pricing" scroll={false}>
+                    <Link href="/#pricing" scroll={false}>
                         Pricing
                     </Link>
                 </li>
                 <li>
-                    <Link href="#location" scroll={false}  >
+                    <Link href="/#location" scroll={false}  >
                         Location
                     </Link>
                 </li>

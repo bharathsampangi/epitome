@@ -11,21 +11,13 @@ export default function Footer() {
                             <a href="tel:7625039382">📞+91 76250 39382</a>
                         </div>
                         <div className={styles.text}>
-                            The information provided on this website is intended for
-                            informational purposes and is subject to potential
-                            changes. It is solely for informational purposes and
-                            should not be regarded as an official website. This
-                            website is owned by an official channel partner of
-                            Sumadhura Group. The information presented, including
-                            project details, is gathered from various sources to the
-                            best of our ability. It should not be interpreted as
-                            advertising, invitations, offers for sale, legal advice,
-                            solicitations, or marketing. Prior to making any
-                            decisions based on the content displayed, it is
-                            recommended that you visit the relevant RERA website.
-                            Your use or access of the website implies your agreement
-                            to this disclaimer without any reservations or
-                            limitations.
+                            Disclaimer: The content is for information purposes only and does not constitute an offer to avail of any service. 
+                            Prices mentioned are subject to change without notice and properties mentioned are subject to availability. 
+                            Images for representation purposes only. 
+                            This is the official website of authorized marketing partner. 
+                            We may share data with RERA registered brokers/companies for further processing. 
+                            We may also send updates to the mobile number/email id registered with us. All Rights Reserved. 
+                            Click to Read <a href="https://sumadhuraepitome.in.net/privacy-policy">Privacy Policy</a>
                         </div>
                     </div>
                 </div>
