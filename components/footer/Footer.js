@@ -17,7 +17,7 @@ export default function Footer() {
                             This is the official website of authorized marketing partner. 
                             We may share data with RERA registered brokers/companies for further processing. 
                             We may also send updates to the mobile number/email id registered with us. All Rights Reserved. 
-                            Click to Read <a href="https://sumadhuraepitome.in.net/privacy-policy">Privacy Policy</a>
+                            Click to Read <a href="https://sumadhuraepitome.in.net/privacy-policy" className={styles.link}>Privacy Policy</a>
                         </div>
                     </div>
                 </div>

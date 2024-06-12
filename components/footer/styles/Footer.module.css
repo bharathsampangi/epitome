@@ -55,6 +55,11 @@
     border-bottom: 1px solid #333;
 }
 
+.link {
+    text-decoration: underline;
+    color: #D6BA43;
+}
+
 .footerEnd {
     margin-top: 1rem;
     color: rgb(89, 84, 84);
