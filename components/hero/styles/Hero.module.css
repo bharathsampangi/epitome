@@ -132,6 +132,19 @@
     padding-bottom: 16px;
 }
 
+.container {
+    background-color: #03201a;
+    display: none;
+}
+
+
+.innerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 0;
+}
+
 @media screen and (min-width: 768px) {
     .hero {
         display: block;
@@ -160,5 +173,23 @@
 
     .header {
         font-size: 3.75rem;
+    }
+
+    .listButton {
+        display: none;
+    }
+
+    .listButtonDesktop {
+        background-color: #D6BA43;
+        cursor: pointer;
+        text-transform: uppercase;
+        color: #fff;
+        border: 1px solid #D6BA43;
+        padding: .5rem 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .container {
+        display: block;
     }
 }
