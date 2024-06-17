@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Main from '../components/main/Main'
+import { GoogleTagManager } from '@next/third-parties/google'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Main />
       <a title="Google Analytics Alternative" href="https://clicky.com/101455694" className="hidden"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
       <script async data-id="101455694" src="//static.getclicky.com/js"></script>
+      <GoogleTagManager gtmId='AW-16606057285' />
     </div>
   )
 }
