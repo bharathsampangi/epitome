@@ -1,3 +1,4 @@
+import { sendGTMEvent } from "@next/third-parties/google"
 import React from 'react'
 import Modal from 'react-modal'
 import styles from "./styles/EnquireModal.module.css"
@@ -22,7 +23,7 @@ const EnquireModal = ({isOpen, setIsOpen}) => {
                         <input type="number" name="phone_number" required />
                     </div>
                 </div>
-                <button type="submit" className={styles.button}>Dowload Brochure</button>
+                <button type="submit" onClick={() => sendGTMEvent({event: 'form-submit', 'send_to': 'AW-16606057285/KtdSCO7j-LoZEMWmse49'})} className={styles.button}>Dowload Brochure</button>
             </form>
             <button className={styles.modalClose} onClick={() => setIsOpen(false)}>❌</button>
          </Modal>

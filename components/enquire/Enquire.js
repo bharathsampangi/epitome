@@ -1,3 +1,4 @@
+import { sendGTMEvent } from "@next/third-parties/google"
 import styles from "./styles/Enquire.module.css"
 
 export default function Enquire() {
@@ -19,8 +20,9 @@ export default function Enquire() {
                         <input type="number" name="phone_number" required />
                     </div>
                 </div>
-                <button type="submit" className={styles.button}>Download Now</button>
+                <button type="submit" onClick={() => sendGTMEvent({event: 'form-submit', 'send_to': 'AW-16606057285/KtdSCO7j-LoZEMWmse49'})} className={styles.button}>Download Now</button>
             </form>
         </section>
     )
 }
+
