@@ -17,7 +17,7 @@ export default function Project({openModal}) {
                         </li>
                         <li>
                             <span className={styles.title}>Area: </span>
-                            <span>1.8 Acres</span>
+                            <span>7.5 Acres</span>
                         </li>
                         <li>
                             <span className={styles.title}>
