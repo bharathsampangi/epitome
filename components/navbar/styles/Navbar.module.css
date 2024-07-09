@@ -65,6 +65,12 @@
     font-weight: 300;
 }
 
+.textSmall {
+    font-size: .35rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 @media screen and (min-width: 768px) {
     .nav {
         flex-direction: row;

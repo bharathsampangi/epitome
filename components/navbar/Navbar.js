@@ -9,7 +9,10 @@ export default function Navbar({ active='' }) {
         <nav className={styles.nav}>
             <div className={styles.logo}>
                 <Link href="/">
-                    <Image src={Logo} alt="Logo" className={styles.logoImage}/>
+                    <div>
+                        <Image src={Logo} alt="Logo" className={styles.logoImage}/><br/>
+                        <p className={styles.textSmall}>Official Channel Partner</p>
+                    </div>
                 </Link>
             </div>
             <ul className={styles.list}>
