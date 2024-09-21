@@ -4,14 +4,14 @@
     top: 1rem;
     right: 1rem;
     border: none;
-    background-color: #fff;
+    background-color: #e9e5df;
     font-size: 1rem;
     cursor: pointer;
 }
 
 .modal {
     position: absolute;
-    background-color: #fff;
+    background-color: #e9e5df;
     top: 50%;
     left: 50%;
     right: auto;
@@ -34,7 +34,7 @@
 
 .label {
     display: block;
-    color: #333;
+    color: #4B3621;
     font-weight: 200;
     padding-bottom: .5rem;
     text-align: left;
@@ -79,14 +79,14 @@
 }
 
 .button {
-    background-color: #D6BA43;
+    background-color: #c98e6f;
     cursor: pointer;
     text-transform: uppercase;
     color: inherit;
-    border: 1px solid #D6BA43;
+    border: 1px solid #c98e6f;
     padding: .5rem 2rem;
     display: block;
-    color: #fff;
+    color: #e9e5df;
     margin-top: 1.5rem;
 }
 

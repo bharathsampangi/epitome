@@ -12,10 +12,10 @@
 }
 
 .button {
-    background-color: #D6BA43;
+    background-color: #c98e6f;
     cursor: pointer;
     color: inherit;
-    border: 1px solid #D6BA43;
+    border: 1px solid #c98e6f;
     padding: 1rem 1rem;
     color: #fff;
     flex-grow: 1;
@@ -47,7 +47,7 @@
 
 @keyframes pulse {
     0% {
-        box-shadow: 0 0 0 0 rgba(214, 186, 67, 1);
+        box-shadow: 0 0 0 0 rgba(201, 142, 111, 1);
     }
     70% {
         box-shadow: 0 0 0 10px rgba(214, 186, 67, 0);

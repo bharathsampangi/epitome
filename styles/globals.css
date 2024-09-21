@@ -3,6 +3,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  background-color: #e9e5df;
+  color: #4B3621;
 }
 
 html {
@@ -19,7 +21,7 @@ a {
 }
 
 :root {
-  --primary-color: #D6BA43;
+  --primary-color: #c98e6f;
 }
 
 /* @media (prefers-color-scheme: dark) {

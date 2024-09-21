@@ -1,6 +1,6 @@
 .footer {
     margin: 0;
-    background-color: #000;
+    background-color: #4B3621;
     padding: 5rem;
 }
 
@@ -30,7 +30,7 @@
 
 .text {
     margin-top: 2rem;
-    color: rgb(89, 84, 84);
+    color: #eae6df;
 }
 
 .button {
@@ -46,7 +46,7 @@
 }
 
 .head {
-    color: #fff;
+    color: #eae6df;
     font-weight: 700;
 }
 
@@ -57,12 +57,12 @@
 
 .link {
     text-decoration: underline;
-    color: #D6BA43;
+    color: #c98e6f;
 }
 
 .footerEnd {
     margin-top: 1rem;
-    color: rgb(89, 84, 84);
+    color: #eae6df;
     display: flex;
     justify-content: space-between;
 }

@@ -115,11 +115,11 @@
 }
 
 .listButton {
-    background-color: #D6BA43;
+    background-color: #c98e6f;
     cursor: pointer;
     text-transform: uppercase;
     color: inherit;
-    border: 1px solid #D6BA43;
+    border: 1px solid #c98e6f;
     padding: .5rem 2rem;
     margin-bottom: 1rem;
 }
@@ -133,7 +133,7 @@
 }
 
 .container {
-    background-color: #03201a;
+    background-color: #bbb7b3;
     display: none;
 }
 
@@ -180,11 +180,11 @@
     }
 
     .listButtonDesktop {
-        background-color: #D6BA43;
+        background-color: #c98e6f;
         cursor: pointer;
         text-transform: uppercase;
         color: #fff;
-        border: 1px solid #D6BA43;
+        border: 1px solid #c98e6f;
         padding: .5rem 2rem;
         margin-bottom: 1rem;
     }
