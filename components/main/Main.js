@@ -10,6 +10,7 @@ import Amenities from "../Amenities/Amenities"
 import Pricing from "../Pricing/Pricing"
 import EnquireModal from "../EnquireModal/EnquireModal"
 import FloatingHeader from "../floating/FloatingHeader"
+import Preview from "../preview/Preview"
 
 const Main = () => {
     const [isOpen, setIsOpen] = React.useState(false)
@@ -37,6 +38,7 @@ const Main = () => {
             <Pricing {...{
                 openModal
             }}/>
+            <Preview />
             <Location />
             <Enquire />
             <Footer />
