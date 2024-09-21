@@ -48,22 +48,22 @@ export default function Preview() {
                 </div>
                 {active == 1 &&
                     <div className={styles.tabContainer}>
-                        <img src="/images/2-BHK.jpg" alt="Smart 2 BHK"/>
+                        <img src="/images/2-BHK.webp" alt="Smart 2 BHK"/>
                     </div>
                 }
                 {active == 2 &&
                     <div className={styles.tabContainer}>
-                        <img src="/images/2.5-BHK.jpg" alt="2.5 BHK"/>
+                        <img src="/images/2.5-BHK.webp" alt="2.5 BHK"/>
                     </div>
                 }
                 {active == 3 &&
                     <div className={styles.tabContainer}>
-                        <img src="/images/3-BHK.jpg" alt="Smart 3 BHK"/>
+                        <img src="/images/3-BHK.webp" alt="Smart 3 BHK"/>
                     </div>
                 }
                 {active == 4 &&
                     <div className={styles.tabContainer}>
-                        <img src="/images/3.5-BHK.jpg" alt="3.5 BHK"/>
+                        <img src="/images/3.5-BHK.webp" alt="3.5 BHK"/>
                     </div>
                 }
             </div>
@@ -72,7 +72,7 @@ export default function Preview() {
                 <div className={`${styles.mySlides} ${styles.fade}`} id="preview-1">
                     <div className={styles.titleText}>Smart 2 BHK</div>
                     <div className={styles.numbertext}>1 / 4</div>
-                    <img className={styles.image} src="/images/2-BHK.jpg" style={{ width: "100%" }} alt="Smart 2 BHK" />
+                    <img className={styles.image} src="/images/2-BHK.webp" style={{ width: "100%" }} alt="Smart 2 BHK" />
                     <div className={styles.captionText}>
                         Perfect for families with young children and active seniors
                     </div>
@@ -81,7 +81,7 @@ export default function Preview() {
                 <div className={`${styles.mySlides} ${styles.fade}`} id="preview-2">
                     <div className={styles.titleText}>2 BHK + Study</div>
                     <div className={styles.numbertext}>2 / 4</div>
-                    <img className={styles.image} src="/images/2.5-BHK.jpg" style={{ width: "100%" }} alt="Smart 3 BHK"/>
+                    <img className={styles.image} src="/images/2.5-BHK.webp" style={{ width: "100%" }} alt="Smart 3 BHK"/>
                     <div className={styles.captionText}>
                         Perfect for working couples with or without kids
                     </div>
@@ -90,7 +90,7 @@ export default function Preview() {
                 <div className={`${styles.mySlides} ${styles.fade}`} id="preview-3">
                     <div className={styles.titleText}>Classic 3 BHK</div>
                     <div className={styles.numbertext}>3 / 4</div>
-                    <img className={styles.image} src="/images/3-BHK.jpg" style={{ width: "100%" }} alt="Classic 3 BHK"/>
+                    <img className={styles.image} src="/images/3-BHK.webp" style={{ width: "100%" }} alt="Classic 3 BHK"/>
                     <div className={styles.captionText}>
                         Works for families with older children
                     </div>
@@ -99,7 +99,7 @@ export default function Preview() {
                 <div className={`${styles.mySlides} ${styles.fade}`} id="preview-4">
                     <div className={styles.titleText}>3 BHK + Study</div>
                     <div className={styles.numbertext}>4 / 4</div>
-                    <img className={styles.image} src="/images/3.5-BHK.jpg" style={{ width: "100%" }} alt="Premium 4 BHK" />
+                    <img className={styles.image} src="/images/3.5-BHK.webp" style={{ width: "100%" }} alt="Premium 4 BHK" />
                     <div className={styles.captionText}>
                         Works great for larger families especially those with seniors living along
                     </div>
