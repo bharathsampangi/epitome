@@ -4,29 +4,28 @@ export default function About() {
     return (
         <section className={styles.location} id="about">
             <div className={styles.aboutContainer}>
-                <img src="/images/epitome-home-mobile.webp" id="eptiome-home" alt="Sumadhura Epitome" />
+                <img
+                    src="/images/epitome-home-mobile.webp"
+                    id="eptiome-home"
+                    alt="Sumadhura Epitome"
+                />
             </div>
             <div className={styles.locationBox}>
                 <div className={styles.locationInnerBox}>
                     <div className={styles.locationHeader2}>
-                        Experience the beauty
+                        The Essence of Exclusivity
                     </div>
                     <p>
-                        The Epitome by Sumadhura introduces an upcoming
-                        residential township in Rachenahalli, offering spacious
-                        and luxurious 2, 3, and 4 BHK apartments.It caters to
-                        those who cherish a sense of completeness and
-                        tranquility in their living space.
-                        <br />
-                        Discover the ideal residence that brings genuine joy. A
-                        haven designed with the well-being and security of your
-                        family in mind, enabling cherished moments and leisurely
-                        strolls together.
-                        <br />
-                        Nestled in the prime area of North Bangalore, the
-                        location offers easy access to renowned schools,
-                        hospitals, and major IT parks, all within a 10-minute
-                        radius.
+                        Welcome to a world of calmness which blends with the
+                        unique Mediterranean theme. It’s going to be a new
+                        discovery of personalized, relaxed ecosphere that’s
+                        plentiful with ultra- modern amenities. An ample
+                        inclusion of natural light, breeze and cozy corners for
+                        we value your intimate moments! So much said; if you ask
+                        us to define our latest beloved project in a word, we
+                        would, pronounce it as “Exclusivity” with a crucial
+                        presence around everything that’s worth your
+                        attention-Hence, the name ‘Epitome’.
                     </p>
                 </div>
             </div>
