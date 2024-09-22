@@ -41,7 +41,7 @@
     border: 1px solid var(--primary-color);
     padding: .5rem 2rem;
     display: block;
-    color: #333;
+    color: #eae6df;
     margin-top: 2rem;
 }
 
@@ -52,7 +52,7 @@
 
 .line {
     padding-top: 2rem;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #eae6df;
 }
 
 .link {
