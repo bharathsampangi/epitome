@@ -1,6 +1,6 @@
 .container {
     max-width: 1200px;
-    margin: -2rem auto 5rem;
+    margin: -2rem auto 6rem;
     display: flex;
     justify-content: center;
 }
@@ -27,4 +27,10 @@
     transform: scale(1.05);
     /* Slight zoom effect on hover */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        margin: -2rem auto 10rem;
+    }
 }
