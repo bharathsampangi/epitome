@@ -11,7 +11,6 @@ import Pricing from "../Pricing/Pricing"
 import EnquireModal from "../EnquireModal/EnquireModal"
 import FloatingHeader from "../floating/FloatingHeader"
 import Preview from "../preview/Preview"
-import Video from "../video/Video"
 
 const Main = () => {
     const [isOpen, setIsOpen] = React.useState(false)
@@ -32,7 +31,6 @@ const Main = () => {
                 setIsOpen
             }} />
             <About />
-            <Video />
             <Project {...{
                 openModal
             }}/>
